@@ -12,6 +12,7 @@
 ## future-work
 
 - Docker container should not run as root.
+-- The issue was that the container itself still binds 53 as nonpriv
 - Threads should handle more than one request at time.
 - Add UDP handelling
 - Add Caching
