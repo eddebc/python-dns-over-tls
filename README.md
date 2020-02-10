@@ -11,7 +11,8 @@
 
 ## future-work
 
-- run docker container as non root user. / prio 1
+- run docker container as non root user.
+- Add support for threads handelling more than one request and dying to conserve resources.
 - Add UDP handelling
 - Add Caching
 - Add Proper logging
