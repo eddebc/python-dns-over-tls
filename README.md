@@ -12,7 +12,7 @@
 ## future-work
 
 - run docker container as non root user.
-- Add support for threads handelling more than one request and dying to conserve resources.
+- Threads should handle more than one request at time.
 - Add UDP handelling
 - Add Caching
 - Add Proper logging
