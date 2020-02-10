@@ -1,10 +1,6 @@
-FROM ubuntu:latest
-ENV DEBIAN_FRONTEND noninteractive
+FROM alpine:latest
 
-RUN apt-get update && apt-get install -y \
-    python3.7 \
-    python3-pip \
-    ca-certificates
+RUN apk add python3
 
 EXPOSE 53
 
