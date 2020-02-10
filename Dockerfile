@@ -1,12 +1,10 @@
-FROM alpine:latest
+FROM python:3-alpine
 
-RUN apk add python3
-
-EXPOSE 53
+RUN pip3 install envparse 
 
 ADD main.py /
 ADD n26utils.py /
-RUN pip3 install envparse 
 
-USER root
+EXPOSE 8053
+USER 1001
 CMD [ "python3", "./main.py" ]
