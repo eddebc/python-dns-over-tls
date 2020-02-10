@@ -3,5 +3,7 @@ services:
   dns-proxy:
     build: .
     ports:
-      - "53:53"
+      - "8053:8053"
     image: "dns-tls-proxy:latest"
+    env_file:
+      - .env
