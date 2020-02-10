@@ -7,9 +7,11 @@
 
 - does not use DNSSEC. Resolved Addresses may be altered by privileged attacker.
 - does not use blacklists/whitelists
+- DOCKER CONTAINER RUNS AS ROOT.
 
 ## future-work
 
+- run docker container as non root user. / prio 1
 - Add UDP handelling
 - Add Caching
 - Add Proper logging
