@@ -11,7 +11,7 @@
 
 ## future-work
 
-- run docker container as non root user.
+- Docker container should not run as root.
 - Threads should handle more than one request at time.
 - Add UDP handelling
 - Add Caching
